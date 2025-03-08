@@ -1,0 +1,80 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Light background color */
+}
+
+h1, h2 {
+    margin: 1rem 0;
+    text-align: center;
+    color: #333;
+}
+
+/* Wrapper */
+#wrapper {
+    max-width: 800px; /* Set a maximum width for responsiveness */
+    margin: 2rem auto; /* Center the content horizontally */
+    padding: 1rem;
+    background-color: #fff; /* White background for content sections */
+    border-radius: 10px; /* Rounded corners for a smoother look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Input Section */
+#input-section {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 1rem; /* Add space between elements */
+    margin-bottom: 1rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically within the group */
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="file"], input[type="number"], input[type="color"], select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+#input-preview {
+    max-width: 100%; /* Adjust image width as needed */
+    margin-top: 10px;
+}
+
+/* Process Button */
+#process-button {
+    background-color: #007bff; /* Blue color for the button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Center the button */
+}
+
+#process-button:hover {
+    background-color: #0069d9; /* Darker blue on hover */
+}
+
+/* Output Section */
+#output-section {
+    text-align: center; /* Center output content */
+}
+
+#output-image {
+    max-width: 100%; /* Adjust image width as needed */
+}
