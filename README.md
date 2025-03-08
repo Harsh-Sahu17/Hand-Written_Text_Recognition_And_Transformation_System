@@ -1,0 +1,2 @@
+# Hand-Written_Text_Recognition_And_Transformation_System
+Hand-Written_Text_Recognition_And_Transformation_System
